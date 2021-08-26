@@ -1,0 +1,37 @@
+recommendation system in python usig scikit
+
+
+//machine learning pipeline
+data extraction and cleaning(extract and clean the data): python, ruby, shellscripts, selenium(internet)
+Building ML model : scikit learn, 3rd party api : azure ml, tensorflow, google
+bulid software infrastructure : javascript, ruby on rails, webto py, github, deploy to clud aws/azure
+
+//supervised ML
+data set -> given
+predict using parameters form given dataset----------------> build prediction model
+
+//recommendation
+based on past or based on similar profiles(like friends, etc)
+preferences--->similar products
+based on relevancy
+
+types of recommendation systems
+users     items
+matches these parameters
+
+
+1. popularity based(trending) keep track of how many users are watching
+2. content based(user interaccted w something---->find similar items to this---->recommend back to user)
+3. collaborative filtering(peer to peer suggestions), similar users recommend their inetrest to each other
+
+//similarity between the  content
+similarity = come up with a score----> math calculations-----> plot distance between the vectors---> get coords from the items bw which we find similarity-----> find distance bw the two vectors ----->angualr dist or euclidean distance-------> start with cos theta 
+use pyhton for calculations----->cosine similarity------> 
+
+//angular distance vs euclidean distance
+
+
+//dataset from IMDB
+
+
+movie matrix of vectors-----> python converts  to tuples---------> sort based on similarity scores
